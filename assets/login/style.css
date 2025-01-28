@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #327ba8, #69a5b5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #e9f4f8;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+  
+  .sun-icon {
+    font-size: 24px;
+    color: #ffde5b;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-btn {
+    background-color: #ffffff;
+    color: #327ba8;
+    border: 1px solid #327ba8;
+  }
+  
+  .create-btn {
+    background-color: transparent;
+    color: #327ba8;
+    border: 1px solid #327ba8;
+  }
+  
+  .microsoft-btn {
+    background-color: transparent;
+    color: #327ba8;
+    border: 1px solid #327ba8;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .btn:hover {
+    background-color: #327ba8;
+    color: white;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #555555;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #327ba8;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

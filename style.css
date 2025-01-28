@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.nav {
+  background: #333;
+  padding: 10px 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu li {
+  margin: 0 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+}
+
+.background-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.5em;
+}
+
+.features {
+  padding: 4rem 2rem;
+  background:#eef
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-text {
+  width: 50%;
+  padding: 1rem;
+  text-align: left;
+}
+
+.feature-image {
+  width: 50%;
+}
+
+.feature-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.login-section {
+  padding: 3rem 1rem;
+  background: #eef;
+  text-align: center;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  text-align: left;
+}
+
+.btn {
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
